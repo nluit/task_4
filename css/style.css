@@ -19,6 +19,36 @@ body {
     min-width: 1500px;
 }
 
+.sub-menu {
+    display: none;
+    position: absolute;
+}
+
+.nav li:hover .sub-menu {
+    display: block;
+    background-color: #ffffff;
+    z-index: 1;
+    margin-top: 0.5rem;
+    opacity: 4s;
+}
+
+.sub-menu li {
+    padding-top: 1rem;
+    height: 2rem;
+    line-height: 1rem;
+    margin-left: -2rem;
+    list-style: none;
+}
+
+.sub-menu li :hover {
+    color: blue;
+}
+
+.sub-menu a {
+    text-decoration: none;
+    color: black;
+}
+
 .nav-item {
     display: inline-block;
     list-style: none;
