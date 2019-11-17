@@ -24,11 +24,21 @@ body {
     position: absolute;
 }
 
+hr {
+    margin-top: -2rem;
+    width: 3rem;
+    border: 1px solid black;
+    color: black;
+    transform: rotate3d(0, 0, 1, 45deg);
+    margin-bottom: 4rem;
+}
+
 .nav li:hover .sub-menu {
     display: block;
     background-color: #ffffff;
     z-index: 1;
     margin-top: 0.5rem;
+    width: max-content;
     opacity: 4s;
 }
 
@@ -41,7 +51,7 @@ body {
 }
 
 .sub-menu li :hover {
-    color: blue;
+    color: lightgray;
 }
 
 .sub-menu a {
@@ -59,6 +69,10 @@ body {
 .nav-link {
     text-decoration: none;
     color: black;
+}
+
+.nav-item :hover {
+    color: lightgray;
 }
 
 .nav-icon {
@@ -335,6 +349,7 @@ body {
 
 .footer-1 {
     background-color: #E8E8E8;
+    margin-top: 2rem;
 }
 
 .footer-title {
